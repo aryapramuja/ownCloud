@@ -1,5 +1,4 @@
-<span style="display:block;text-align:center">![owncloud-logo](https://upload.wikimedia.org/wikipedia/commons/f/f6/OwnCloud_logo_and_wordmark.svg)</span>
-<h1 id="top" style="display:block;text-align:center">Aplikasi Web ownCloud</h1>
+<h1 id="top" style="display:block;text-align:center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/OwnCloud_logo_and_wordmark.svg">Aplikasi Web ownCloud</h1>
 
 Table of Content:
 
