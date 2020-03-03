@@ -15,7 +15,6 @@ Table of Content:
 [`^kembali ke atas^`](#top)
 
 __ownCloud__ merupakan perangkat lunak open-source untuk menyimpan dan berbagi berkas dalam awan (internet).
-OwnCloud menyimpan data di satu server pusat sehingga terjaga keamanannya. 
 Sang pelopor, Frank Karlitschek, merasa bahwa dunia membutuhkan sesuatu yang mudah digunakan, aman, fleksibel dalam mengatur berkas, dan tanpa mengalami kemunduran pada tempat penyimpanannya. 
 
 ## Instalasi
