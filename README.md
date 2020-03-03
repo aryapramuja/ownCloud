@@ -14,7 +14,7 @@ Table of Content:
 ## Sekilas Tentang
 [`^kembali ke atas^`](#top)
 
-__ownCloud__ adalah bagian dari ....
+__ownCloud__ adalah bagian dari...
 
 
 ## Instalasi
