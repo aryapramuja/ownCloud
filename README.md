@@ -1,4 +1,4 @@
-<h1 id="top" style="display:block;text-align:center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/OwnCloud_logo_and_wordmark.svg"><br />Aplikasi Web ownCloud</h1>
+<h1 id="top" align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/OwnCloud_logo_and_wordmark.svg"><br />Aplikasi Web ownCloud</h1>
 
 Table of Content:
 
