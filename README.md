@@ -69,16 +69,10 @@ Buka laman [http://localhost:8000/owncloud](http://localhost:8000/owncloud) untu
 ## Konfigurasi
 [`^kembali ke atas^`](#top)
 
-Setting server tambahan yang diperlukan untuk meningkatkan fungsi dan kinerja aplikasi, misalnya:
-- batas upload file
-- batas memori
-- dll
-
-Plugin untuk fungsi tambahan
-- login dengan Google/Facebook
-- editor Markdown
-- dll
-
+Buat akun admin dan isi folder untuk data.
+<img src="https://ibb.co/72dyncM">
+Isi konfigurasi database.
+<img src="https://ibb.co/jvSbZrv">
 
 ##  Maintenance
 [`^kembali ke atas^`](#top)
