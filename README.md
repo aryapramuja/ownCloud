@@ -72,7 +72,7 @@ Buka laman [http://localhost:8000/owncloud](http://localhost:8000/owncloud) untu
 Buat akun admin dan isi folder untuk data.
 <img src="https://ibb.co/72dyncM">
 Isi konfigurasi database.
-<img src="https://ibb.co/jvSbZrv">
+<a href="https://ibb.co/jvSbZrv"><img src="https://i.ibb.co/qMv7FrM/Screenshot-2020-03-03-17-59-53.png" alt="Screenshot-2020-03-03-17-59-53" border="0"></a>
 
 ##  Maintenance
 [`^kembali ke atas^`](#top)
