@@ -107,6 +107,7 @@ File baru akan ada pada folder yang sedang dibuka.
 - Aplikasi ini memiliki kemudahan akses karena semua aplikasi dan data kita berada pada server cloud.
 - Mudah untuk dipasang serta di-*maintenance*.
 - Bersifat *open-source*.
+
 Selain memiliki kelebihan, **ownCloud** juga memiliki beberapa kekurangan diantaranya:
 - Ketika internet sedang bermasalah atau kelebihan beban, aplikasi akan menjadi lambat atau tidak bisa digunakan sama sekali.
 - Tidak memiliki akses langsung ke sumber daya.
