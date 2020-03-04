@@ -108,13 +108,11 @@ File baru akan ada pada folder yang sedang dibuka.
 - Mudah untuk dipasang serta di-*maintenance*.
 - Bersifat *open-source*.
 
-Selain memiliki kelebihan, **ownCloud** juga memiliki beberapa kekurangan diantaranya:
-- Ketika internet sedang bermasalah atau kelebihan beban, aplikasi akan menjadi lambat atau tidak bisa digunakan sama sekali.
-- Tidak memiliki akses langsung ke sumber daya.
+Selain memiliki kelebihan, **ownCloud** juga memiliki kekurangan yaitu ketika internet sedang bermasalah atau kelebihan beban, aplikasi akan menjadi lambat atau tidak bisa digunakan sama sekali.
 
 Jika dibandingkan dengan aplikasi penyedia layanan penyimpanan lainnya seperti **Google Drive**, ownCloud lebih bersifat *open-source* sehingga bebas digunakan.
 
 ## Referensi
 [`^kembali ke atas^`](#top)
-
-Cantumkan tiap sumber informasi yang anda pakai.
+1. [Tentang ownCloud](https://owncloud.org/) - ownCloud
+2. [Dokumentasi ownCloud](https://doc.owncloud.com/server/10.3/) - ownCloud
