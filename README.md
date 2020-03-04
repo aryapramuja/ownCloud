@@ -46,6 +46,10 @@ Unduh tarball __ownCloud__ versi `10.3.2` dan ekstrak ke direktori webroot
 wget "https://download.owncloud.org/community/owncloud-10.3.2.tar.bz2"
 sudo tar -xjf owncloud-10.3.2.tar.bz2 -C /var/www
 ```
+Ubah owner folder owncloud di webroot ke `www-data`
+```sh
+sudo chown www-data:www-data -R /var/www/owncloud
+```
 Konfigurasi apache untuk ownCloud
 ```sh
 # tambah entri konfigurasi ownCloud di apache2
