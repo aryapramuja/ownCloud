@@ -6,10 +6,9 @@ Table of Content:
 2. [Instalasi](#instalasi)
 3. [Konfigurasi](#konfigurasi)
 4. [Maintenance](#maintenance)
-5. [Otomatisasi](#otomatisasi)
-6. [Cara Pemakaian](#cara-pemakaian)
-7. [Pembahasan](#pembahasan)
-8. [Referensi](#referensi)
+5. [Cara Pemakaian](#cara-pemakaian)
+6. [Pembahasan](#pembahasan)
+7. [Referensi](#referensi)
 
 ## Sekilas Tentang
 [`^kembali ke atas^`](#top)
