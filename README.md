@@ -7,8 +7,9 @@ Table of Content:
 3. [Konfigurasi](#konfigurasi)
 4. [Maintenance](#maintenance)
 5. [Cara Pemakaian](#cara-pemakaian)
-6. [Pembahasan](#pembahasan)
-7. [Referensi](#referensi)
+6. [Otomasi](#otomasi)
+7. [Pembahasan](#pembahasan)
+8. [Referensi](#referensi)
 
 ## Sekilas Tentang
 [`^kembali ke atas^`](#top)
@@ -99,6 +100,87 @@ Jika sudah log in, tekan tombol (+) untuk menambahkan file.
 
 File baru akan ada pada folder yang sedang dibuka.
 <a href="https://ibb.co/vQQPSxq"><img src="https://i.ibb.co/jWWMSvf/Screenshot-2020-03-04-14-35-35.png" alt="Screenshot-2020-03-04-14-35-35" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'></a><br />
+
+## Otomasi
+Ada beberapa cara:
+1. Menggunakan `docker-compose`
+```
+
+
+version: '2.1'
+
+volumes:
+  files:
+    driver: local
+  mysql:
+    driver: local
+  backup:
+    driver: local
+  redis:
+    driver: local
+
+services:
+  owncloud:
+    image: owncloud/server:${OWNCLOUD_VERSION}
+    restart: always
+    ports:
+      - ${HTTP_PORT}:8080
+    depends_on:
+      - db
+      - redis
+    environment:
+      - OWNCLOUD_DOMAIN=${OWNCLOUD_DOMAIN}
+      - OWNCLOUD_DB_TYPE=mysql
+      - OWNCLOUD_DB_NAME=owncloud
+      - OWNCLOUD_DB_USERNAME=owncloud
+      - OWNCLOUD_DB_PASSWORD=owncloud
+      - OWNCLOUD_DB_HOST=db
+      - OWNCLOUD_ADMIN_USERNAME=${ADMIN_USERNAME}
+      - OWNCLOUD_ADMIN_PASSWORD=${ADMIN_PASSWORD}
+      - OWNCLOUD_MYSQL_UTF8MB4=true
+      - OWNCLOUD_REDIS_ENABLED=true
+      - OWNCLOUD_REDIS_HOST=redis
+    healthcheck:
+      test: ["CMD", "/usr/bin/healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    volumes:
+      - files:/mnt/data
+
+  db:
+    image: webhippie/mariadb:latest
+    restart: always
+    environment:
+      - MARIADB_ROOT_PASSWORD=owncloud
+      - MARIADB_USERNAME=owncloud
+      - MARIADB_PASSWORD=owncloud
+      - MARIADB_DATABASE=owncloud
+      - MARIADB_MAX_ALLOWED_PACKET=128M
+      - MARIADB_INNODB_LOG_FILE_SIZE=64M
+    healthcheck:
+      test: ["CMD", "/usr/bin/healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    volumes:
+      - mysql:/var/lib/mysql
+      - backup:/var/lib/backup
+
+  redis:
+    image: webhippie/redis:latest
+    restart: always
+    environment:
+      - REDIS_DATABASES=1
+    healthcheck:
+      test: ["CMD", "/usr/bin/healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    volumes:
+      - redis:/var/lib/redis
+```
+2. Ansible playbook ___TODO___
 
 ## Pembahasan
 [`^kembali ke atas^`](#top)
