@@ -71,10 +71,17 @@ Buka laman [http://localhost:8000/owncloud](http://localhost:8000/owncloud) untu
 ## Konfigurasi
 [`^kembali ke atas^`](#top)
 
+### setup ownCloud
 Buat akun admin dan isi folder untuk data.
 <a href="https://ibb.co/72dyncM"><img src="https://i.ibb.co/4PnN8yv/Screenshot-2020-03-03-17-59-34.png" alt="Screenshot-2020-03-03-17-59-34" border="0" /></a><br/>
 Isi konfigurasi database sesuai dengan database yang telah dibuat.
 <a href="https://ibb.co/jvSbZrv"><img src="https://i.ibb.co/qMv7FrM/Screenshot-2020-03-03-17-59-53.png" alt="Screenshot-2020-03-03-17-59-53" border="0"></a><br/>
+### Ubah max upload size
+ubah `/etc/php/7.2/apache2/php.ini`
+```
+post_max_size = 128M
+upload_max_filesize = 128M
+```
 
 ##  Maintenance
 [`^kembali ke atas^`](#top)
