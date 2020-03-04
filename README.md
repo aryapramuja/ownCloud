@@ -103,11 +103,14 @@ File baru akan ada pada folder yang sedang dibuka.
 ## Pembahasan
 [`^kembali ke atas^`](#top)
 
-- Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
-
+**ownCloud** ditulis dalam bahasa pemrograman PHP yang didukung oleh penggunaan MySQL. **ownCloud** memiliki beberapa kelebihan diantaranya:
+    - Aplikasi ini memiliki kemudahan akses karena semua aplikasi dan data kita berada pada server cloud.
+    - Mudah untuk dipasang serta di-*maintenance*.
+    - Bersifat *open-source*.
+Selain memiliki kelebihan, **ownCloud** juga memiliki beberapa kekurangan diantaranya:
+    - Ketika internet sedang bermasalah atau kelebihan beban, aplikasi akan menjadi lambat atau tidak bisa digunakan sama sekali.
+    - Tidak memiliki akses langsung ke sumber daya.
+Jika dibandingkan dengan aplikasi penyedia layanan penyimpanan lainnya seperti **Google Drive**, ownCloud lebih bersifat *open-source* sehingga bebas digunakan.
 
 ## Referensi
 [`^kembali ke atas^`](#top)
