@@ -95,10 +95,10 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 [`^kembali ke atas^`](#top)
 
 Jika sudah log in, tekan tombol (+) untuk menambahkan file.
-<a href="https://ibb.co/TLQYS7B"><img src="https://i.ibb.co/Kwtbkfj/Screenshot-2020-03-04-14-34-42.png" alt="Screenshot-2020-03-04-14-34-42" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'>www gambar com</a><br />
+<a href="https://ibb.co/TLQYS7B"><img src="https://i.ibb.co/Kwtbkfj/Screenshot-2020-03-04-14-34-42.png" alt="Screenshot-2020-03-04-14-34-42" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'></a><br />
 
 File baru akan ada pada folder yang sedang dibuka.
-<a href="https://ibb.co/vQQPSxq"><img src="https://i.ibb.co/jWWMSvf/Screenshot-2020-03-04-14-35-35.png" alt="Screenshot-2020-03-04-14-35-35" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'>www gambar com</a><br />
+<a href="https://ibb.co/vQQPSxq"><img src="https://i.ibb.co/jWWMSvf/Screenshot-2020-03-04-14-35-35.png" alt="Screenshot-2020-03-04-14-35-35" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'></a><br />
 
 ## Pembahasan
 [`^kembali ke atas^`](#top)
