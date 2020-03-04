@@ -26,7 +26,7 @@ sudo apt install apache2 php mysql-server
 ```
 Install ekstensi `php` yang diperlukan
 ```sh
-sudo apt install php-gd php-simplexml php-curl php-mb php-mbstring php-zip php-dom php-xmlwriter php-intl php-mysql
+sudo apt install php-gd php-simplexml php-curl php-mbstring php-zip php-dom php-xmlwriter php-intl php-mysql
 ```
 Enable module `headers`, `unique_id`, dan `php7.2` di apache2.
 ```sh
@@ -39,7 +39,7 @@ Buat database untuk __ownCloud__, ganti `secret` sesuai password database yang a
 ```sh
 sudo mysql -u root -ve "
   CREATE DATABASE owncloud;
-  CREATE USER owncloud IDENTIFIED BY 'secret'@'localhost';
+  CREATE USER owncloud IDENTIFIED BY 'secret';
   GRANT ALL PRIVILEGES ON owncloud.* TO owncloud;"
 ```
 Unduh tarball __ownCloud__ versi `10.3.2` dan ekstrak ke direktori webroot
