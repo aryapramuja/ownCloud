@@ -111,6 +111,7 @@ File baru akan ada pada folder yang sedang dibuka.
 Selain memiliki kelebihan, **ownCloud** juga memiliki beberapa kekurangan diantaranya:
 - Ketika internet sedang bermasalah atau kelebihan beban, aplikasi akan menjadi lambat atau tidak bisa digunakan sama sekali.
 - Tidak memiliki akses langsung ke sumber daya.
+
 Jika dibandingkan dengan aplikasi penyedia layanan penyimpanan lainnya seperti **Google Drive**, ownCloud lebih bersifat *open-source* sehingga bebas digunakan.
 
 ## Referensi
