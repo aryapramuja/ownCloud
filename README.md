@@ -103,10 +103,8 @@ File baru akan ada pada folder yang sedang dibuka.
 
 ## Otomasi
 Ada beberapa cara:
-1. Menggunakan `docker-compose`
-```
-
-
+1. Menggunakan `docker-compose`, `docker-compose.yml`
+```yaml
 version: '2.1'
 
 volumes:
