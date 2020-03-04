@@ -25,7 +25,7 @@ sudo apt install apache2 php mysql-server
 ```
 Install ekstensi `php` yang diperlukan
 ```sh
-sudo apt install php-gd php-simplexml php-curl php-mbstring php-zip php-dom php-xmlwriter php-intl php-mysql
+sudo apt install php-gd php-simplexml php-curl php-mbstring php-zip php-dom php-xmlwriter php-intl php-mysql php-zip php-intl
 ```
 Enable module `headers`, `unique_id`, dan `php7.2` di apache2.
 ```sh
@@ -63,6 +63,9 @@ Alias /owncloud "/var/www/owncloud/"
 !
 # enable ownCloud
 sudo ln -sf /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
+
+# restat apache2
+sudo systemctl restart apache2
 ```
 Buka laman [http://localhost:8000/owncloud](http://localhost:8000/owncloud) untuk meneruskan instalasi.
 ## Konfigurasi
