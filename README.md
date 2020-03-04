@@ -78,24 +78,25 @@ Isi konfigurasi database sesuai dengan database yang telah dibuat.
 
 ##  Maintenance
 [`^kembali ke atas^`](#top)
-
-Setting tambahan untuk maintenance secara periodik, misalnya:
-- buat backup database tiap pekan
-- hapus direktori sampah tiap hari
-- dll
-
-
-## Otomatisasi
-[`^kembali ke atas^`](#top)
-
-Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
-
-
+Backup database mingguan dengan crontab
+```sh
+sudo tee -a /etc/crontab << !
+0 0 * * 0 date=`date -I`; /usr/bin/mysqldump -uowncloud -psecret owncloud > /home/student/owncloud_backup_$date.sql
+!
+```
+Check status apache2
+```
+sudo systemctl status apache2
+```
+Check error log apache2
+```
+sudo cat /var/log/apache2/error.log
+```
 ## Cara Pemakaian
 [`^kembali ke atas^`](#top)
 
 Jika sudah log in, tekan tombol (+) untuk menambahkan file.
-<a href="https://ibb.co/TLQYS7B"><img src="https://i.ibb.co/Kwtbkfj/Screenshot-2020-03-04-14-34-42.png" alt="Screenshot-2020-03-04-14-34-42" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'></a><br />
+<a href="https://ibb.co/TLQYS7B"><img src="https://i.ibb.co/Kwtbkfj/Screenshot-2020-03-04-14-34-42.png" alt="Screenshot-2020-03-04-14-34-42" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'></a><br />se
 
 File baru akan ada pada folder yang sedang dibuka.
 <a href="https://ibb.co/vQQPSxq"><img src="https://i.ibb.co/jWWMSvf/Screenshot-2020-03-04-14-35-35.png" alt="Screenshot-2020-03-04-14-35-35" border="0"></a><br /><a target='_blank' href='https://id.imgbb.com/'></a><br />
